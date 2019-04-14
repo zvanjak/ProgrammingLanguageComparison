@@ -1,5 +1,0 @@
-04.05.2011. 12:45 "D:\Project\src\Model\nesto.cpp" Line:20 WARNING - Varijable numApples outside allowed range!
-05.05.2011. 05:25 "D:\Project\src\Model\nesto.cpp" Line:321 DEBUG - Varijable numApples outside allowed range!
-06.05.2011. 22:43 "D:\Project\src\Model\nesto.cpp" Line:1320 INFO - Varijable numApples outside allowed range!
-06.05.2011. 18:11 "D:\Project\src\Model\nesto.cpp" Line:2510 ERROR - Varijable numApples outside allowed range!
-07.05.2011. 09:46 "D:\Project\src\Model\nesto.cpp" Line:41 WARNING - Varijable numApples outside allowed range!
