@@ -25,6 +25,17 @@
     <Compile Include="01 - PythonBasics.py" />
     <Compile Include="02 - PythonReadPrint.py" />
     <Compile Include="03 - PythonStatements.py" />
+    <Compile Include="04 - PythonStrings.py" />
+    <Compile Include="05 - PythonFunctions.py" />
+    <Compile Include="06 - PythonLists.py" />
+    <Compile Include="06a - PythonSequenceOperations.py" />
+    <Compile Include="07 - PythonTuples.py" />
+    <Compile Include="08 - PythonSets.py" />
+    <Compile Include="09 - PythonDictionaries.py" />
+    <Compile Include="10 - PythonFiles.py" />
+    <Compile Include="11 - PythonClasses.py" />
+    <Compile Include="12 - PythonModules.py" />
+    <Compile Include="13 - PythonNamespaces_Scoping.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
