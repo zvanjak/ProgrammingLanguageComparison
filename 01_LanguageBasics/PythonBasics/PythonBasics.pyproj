@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7ac0e221-37fc-44fc-820b-bbc5dadcd907</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonBasics.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonBasics.py" />
+    <Compile Include="01 - PythonBasics.py" />
+    <Compile Include="02 - PythonReadPrint.py" />
+    <Compile Include="03 - PythonStatements.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
