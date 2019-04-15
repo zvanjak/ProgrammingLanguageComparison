@@ -32,5 +32,14 @@
     <ClCompile Include="02_operators.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="00_keyboard_screen_IO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="03_statements_expressions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="01b_arrays_pointers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

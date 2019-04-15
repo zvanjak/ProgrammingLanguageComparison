@@ -1,0 +1,1 @@
+// standardn C++ arrays + pointers

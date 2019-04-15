@@ -154,9 +154,12 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="00_keyboard_screen_IO.cpp" />
     <ClCompile Include="01a_const_constexpr.cpp" />
+    <ClCompile Include="01b_arrays_pointers.cpp" />
     <ClCompile Include="01_declarations_types.cpp" />
     <ClCompile Include="02_operators.cpp" />
+    <ClCompile Include="03_statements_expressions.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

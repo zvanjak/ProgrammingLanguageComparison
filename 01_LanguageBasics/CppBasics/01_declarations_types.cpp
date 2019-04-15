@@ -43,9 +43,9 @@ namespace NS { int a; }
 template<class T> void f1(vector<T>& arg)
 {
 	for (vector<T>::iterator p = arg.begin(); p != arg.end(); ++p)
-		∗p = 7;
+		*p = 7;
 	for (auto p = arg.begin(); p != arg.end(); ++p)
-		∗p = 7;
+		*p = 7;
 }	
 
 void f(vector<int>& v)
