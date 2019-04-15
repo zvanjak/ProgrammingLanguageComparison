@@ -1,5 +1,4 @@
-#include "stdafx.h"
-
+#include "pch.h"
 
 void bitwise_operators()
 {

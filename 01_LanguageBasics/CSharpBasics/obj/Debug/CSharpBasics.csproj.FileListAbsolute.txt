@@ -1,0 +1,7 @@
+E:\Projects\ProgrammingLanguageComparison\01_LanguageBasics\CSharpBasics\bin\Debug\CSharpBasics.exe.config
+E:\Projects\ProgrammingLanguageComparison\01_LanguageBasics\CSharpBasics\bin\Debug\CSharpBasics.exe
+E:\Projects\ProgrammingLanguageComparison\01_LanguageBasics\CSharpBasics\bin\Debug\CSharpBasics.pdb
+E:\Projects\ProgrammingLanguageComparison\01_LanguageBasics\CSharpBasics\obj\Debug\CSharpBasics.csprojAssemblyReference.cache
+E:\Projects\ProgrammingLanguageComparison\01_LanguageBasics\CSharpBasics\obj\Debug\CSharpBasics.csproj.CoreCompileInputs.cache
+E:\Projects\ProgrammingLanguageComparison\01_LanguageBasics\CSharpBasics\obj\Debug\CSharpBasics.exe
+E:\Projects\ProgrammingLanguageComparison\01_LanguageBasics\CSharpBasics\obj\Debug\CSharpBasics.pdb
