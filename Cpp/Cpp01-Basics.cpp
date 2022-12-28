@@ -6,6 +6,60 @@
 #include <iostream>
 #include <array>
 
+
+// ALL KINDS OF DECLARATIONS
+
+using namespace std;
+
+char ch;
+string s;
+
+auto count = 1;
+
+const double pi = 3.1415926535897;
+
+extern int error_number;
+
+const char* name = "Njal";
+const char* season[] = { "spring", "summer", "fall", "winter" };
+
+//vector<string> people{ name, "Skarphedin", "Gunnar" };
+
+struct Date { int d, m, y; };
+
+int day(Date* p) { return p->d; }
+
+double sqrt(double);
+
+template<class T> T abs(T a) { return a<0 ? -a : a; }
+
+constexpr int fac(int n) { return (n<2) ? 1 : n*fac(n-1); }		// possible compile-time evaluation
+constexpr double zz{ pi*fac(7) };								// compile-time initialization
+
+//using Cmplx = std::complex<double>;		// type alias
+
+struct User;							// type name
+
+enum class Beer { Carlsberg, Tuborg, Thor };
+
+namespace NS { int a; }
+
+// auto
+// template<class T> void f1(vector<T>& arg)
+// {
+// 	for (vector<T>::iterator p = arg.begin(); p != arg.end(); ++p)
+// 		∗p = 7;
+// 	for (auto p = arg.begin(); p != arg.end(); ++p)
+// 		∗p = 7;
+// }	
+
+// void f(vector<int>& v)
+// {
+// 	for (const auto& x : v) { // x is a const int&
+// 							  // ...
+// 	}
+// }
+
 void test_bool()
 {
 	bool b1 = 7;		// 7!=0, so b becomes true
@@ -18,9 +72,9 @@ void test_bool()
 	// a 0 is converted to false and a nonzero value is converted to true.For example :
 	bool a = true;
 	bool b = true;
-	bool x = a + b; // a+b is 2, so x becomes true
-	bool y = a || b; // a||b is 1, so y becomes true ("||" means "or")
-	bool z = a - b; // a-b is 0, so z becomes false
+	bool x = a + b;     // a+b is 2, so x becomes true
+	bool y = a || b;    // a||b is 1, so y becomes true ("||" means "or")
+	bool z = a - b;     // a-b is 0, so z becomes false
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -130,56 +184,3 @@ void stl_arrays()
 	for (auto& value : values)
 		total2 += value;
 }
-
-// ALL KINDS OF DECLARATIONS
-
-using namespace std;
-
-char ch;
-string s;
-
-auto count = 1;
-
-const double pi = 3.1415926535897;
-
-extern int error_number;
-
-const char* name = "Njal";
-const char* season[] = { "spring", "summer", "fall", "winter" };
-
-//vector<string> people{ name, "Skarphedin", "Gunnar" };
-
-struct Date { int d, m, y; };
-
-int day(Date* p) { return p->d; }
-
-double sqrt(double);
-
-template<class T> T abs(T a) { return a<0 ? -a : a; }
-
-constexpr int fac(int n) { return (n<2) ? 1 : n*fac(n-1); }		// possible compile-time evaluation
-constexpr double zz{ pi*fac(7) };								// compile-time initialization
-
-//using Cmplx = std::complex<double>;		// type alias
-
-struct User;							// type name
-
-enum class Beer { Carlsberg, Tuborg, Thor };
-
-namespace NS { int a; }
-
-// auto
-// template<class T> void f1(vector<T>& arg)
-// {
-// 	for (vector<T>::iterator p = arg.begin(); p != arg.end(); ++p)
-// 		∗p = 7;
-// 	for (auto p = arg.begin(); p != arg.end(); ++p)
-// 		∗p = 7;
-// }	
-
-// void f(vector<int>& v)
-// {
-// 	for (const auto& x : v) { // x is a const int&
-// 							  // ...
-// 	}
-// }
