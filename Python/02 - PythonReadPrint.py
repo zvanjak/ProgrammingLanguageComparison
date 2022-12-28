@@ -26,10 +26,10 @@ print("Desni padding:", repr(12.345).rjust(10))
 # TODO - ucitavanje
 
 print("Unesite nesto:")
-s = input()
+s = raw_input()
 print(isinstance(s,str))  # provjera tipa unesenog podatka
 
-s = input('Unesite opet nesto ----> ') 
+s = raw_input('Unesite opet nesto ----> ') 
 print("Upisali ste {0}".format(s))
 
 input('I za kraj upisite opet nesto ----> ')     # funkcija ne hvata greske, preporuca se raw_input

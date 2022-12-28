@@ -16,8 +16,8 @@ sum2 = 2
 sum = total_sum + \
       sum2
 
-# lokacija objekta u memoriji
-#print id(normalInt)
+# TODO KONVERZIJE
+# TODO OPERATORI
 
 # tip objekta
 print(type(decimalInt).__name__)
@@ -62,9 +62,6 @@ print (divmod(normalInt, 2))  # vra�a tuple (x//y, x%y)
     vi�e
     redaka
 '''
-
-
-#raw_input()
 
 
 
