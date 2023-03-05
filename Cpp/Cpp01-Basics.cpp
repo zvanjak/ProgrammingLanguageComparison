@@ -8,7 +8,7 @@
 
 
 // ALL KINDS OF DECLARATIONS
-
+// Most used declarations
 using namespace std;
 
 char ch;
