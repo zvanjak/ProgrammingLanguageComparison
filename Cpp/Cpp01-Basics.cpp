@@ -107,7 +107,7 @@ void test_char()
 	auto s8 = UR"(folder\file)";		// UTF-32 raw str ing
 }
 
-int test_simple_types()
+int test_int()
 {
 	char	myChar = 0;			// -128 to +127
 	short 	myShort = 0;		// -32768 to +32767
@@ -146,7 +146,10 @@ int test_simple_types()
 	int myOct = 062;			// octal notation (0)
 	int myHex = 0x32;			// hexadecimal notation (0x)
 	int myBin = 0b0011'0010;	// binary notation (0b)
+    }
 
+int test_real()
+{
 	float f = 1.23F;
 	double d = 1.23;
 	long double ld = 1.23L;
