@@ -8,7 +8,7 @@ int main ()
     
     test_bool();
     test_char();
-    test_simple_types();
+    test_int();
 
     std::cout << "Hello";
 }
