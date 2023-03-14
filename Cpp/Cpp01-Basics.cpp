@@ -107,7 +107,7 @@ void test_char()
 	auto s8 = UR"(folder\file)";		// UTF-32 raw str ing
 }
 
-int test_int()
+void test_int()
 {
 	char	myChar = 0;			// -128 to +127
 	short 	myShort = 0;		// -32768 to +32767

@@ -3,6 +3,7 @@ int standard_main();
 
 void test_bool();
 void test_char();
+void test_int();
 int  test_simple_types();
 void standard_cpp_arrays();
 void stl_arrays();
