@@ -93,11 +93,11 @@ void test_char()
 	unsigned char uc = sc;		// uc == 116 (because 256-160==116)
 	std::cout << uc;								// print 't'
 
-	char count[256];		// assume 8-bit chars
+	char count[256];		    // assume 8-bit chars
 	++count[sc];				// likely disaster: out-of-range access
 	++count[uc];				// OK
 
-	auto s1 = "folder\\file";				// implementation character set string
+	auto s1 = "folder\\file";			// implementation character set string
 	auto s2 = R"(folder\file)";			// implementation character raw set string
 	auto s3 = u8"folder\\file";			// UTF-8 string
 	auto s4 = u8R"(folder\file)";		// UTF-8 raw str ing
