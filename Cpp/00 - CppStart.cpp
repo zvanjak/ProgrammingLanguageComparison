@@ -1,6 +1,6 @@
 #include <iostream>
 
-int standard_main()
+int main()
 {
     std::cout << "standarde_main() function\n"; 
     std::cout << "Hello World!\n"; 
