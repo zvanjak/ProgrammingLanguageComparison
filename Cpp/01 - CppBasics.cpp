@@ -11,6 +11,20 @@
 // Most used declarations
 using namespace std;
 
+// Basic types
+// Function
+// Templates    
+// Constexpr
+// Type alias
+// Type name
+// Enum
+// Namespace
+// Auto
+// Struct
+// Class
+// Union
+
+
 char ch;
 string s;
 
@@ -153,6 +167,8 @@ int test_real()
 	float f = 1.23F;
 	double d = 1.23;
 	long double ld = 1.23L;
+
+    // TODO - dodati osnovni output preko std::cout
 
 	return 0;
 }
