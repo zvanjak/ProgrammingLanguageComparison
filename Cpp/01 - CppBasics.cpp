@@ -202,3 +202,13 @@ void stl_arrays()
 	for (auto& value : values)
 		total2 += value;
 }
+
+void CppBasics()
+{
+    test_bool();
+    test_char();
+    test_int();
+    test_real();
+    standard_cpp_arrays();
+    stl_arrays();
+}
