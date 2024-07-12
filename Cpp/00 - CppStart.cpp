@@ -2,7 +2,7 @@
 
 int main()
 {
-    std::cout << "standard_main() function\n"; 
+    std::cout << "KELOZA standard_main() function\n"; 
     std::cout << "Hello World!\n"; 
     return 0;
 }

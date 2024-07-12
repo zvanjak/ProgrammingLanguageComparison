@@ -5,11 +5,11 @@
 // console IO
 #include <iostream>
 #include <array>
-
+#include <complex>
 
 // ALL KINDS OF DECLARATIONS
 // Most used declarations
-using namespace std;
+
 
 // Basic types
 // Function
@@ -26,7 +26,7 @@ using namespace std;
 
 
 char ch;
-string s;
+std::string s;
 
 auto count = 1;
 
@@ -50,7 +50,7 @@ template<class T> T abs(T a) { return a<0 ? -a : a; }
 constexpr int fac(int n) { return (n<2) ? 1 : n*fac(n-1); }		// possible compile-time evaluation
 constexpr double zz{ pi*fac(7) };								// compile-time initialization
 
-//using Cmplx = std::complex<double>;		// type alias
+using Cmplx = std::complex<double>;		// type alias
 
 struct User;							// type name
 
@@ -58,21 +58,22 @@ enum class Beer { Carlsberg, Tuborg, Thor };
 
 namespace NS { int a; }
 
-// auto
-// template<class T> void f1(vector<T>& arg)
-// {
-// 	for (vector<T>::iterator p = arg.begin(); p != arg.end(); ++p)
-// 		∗p = 7;
-// 	for (auto p = arg.begin(); p != arg.end(); ++p)
-// 		∗p = 7;
-// }	
+void test_bool();
+void test_char();
+void test_int();
+void test_real();
+void standard_cpp_arrays();
+void stl_arrays();
 
-// void f(vector<int>& v)
-// {
-// 	for (const auto& x : v) { // x is a const int&
-// 							  // ...
-// 	}
-// }
+void CppBasics()
+{
+    test_bool();
+    test_char();
+    test_int();
+    test_real();
+    standard_cpp_arrays();
+    stl_arrays();
+}
 
 void test_bool()
 {
@@ -162,15 +163,13 @@ void test_int()
 	int myBin = 0b0011'0010;	// binary notation (0b)
     }
 
-int test_real()
+void test_real()
 {
 	float f = 1.23F;
 	double d = 1.23;
 	long double ld = 1.23L;
 
     // TODO - dodati osnovni output preko std::cout
-
-	return 0;
 }
 
 void standard_cpp_arrays()
