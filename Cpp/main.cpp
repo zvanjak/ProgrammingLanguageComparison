@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "hedley.h"
+
 #include "declarations.h"
 
 void CppBasics();
